@@ -14,7 +14,7 @@ const Body = () => {
 
   const fetchData = async () => {
     const data = await fetch(
-      "https://www.swiggy.com/api/seo/getListing?lat=16.5061743&lng=80.6480153&isDineoutCollection=false"
+      "https://corsproxy.io/?https://www.swiggy.com/api/seo/getListing?lat=16.5061743&lng=80.6480153&isDineoutCollection=false"
     );
     const json = await data.json();
     setRestData(

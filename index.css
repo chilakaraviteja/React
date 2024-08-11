@@ -1,6 +1,7 @@
 .header {
   display: flex;
   justify-content: space-between;
+  padding-right: 10px;
   align-items: center;
   border: 1px solid black;
 }
@@ -29,6 +30,18 @@
 .res-card:hover {
   scale: 1.2;
 }
+
+.filter {
+  display: flex;
+  align-items: center;
+}
+
+.search-btn,
+.search-input {
+  padding: 10px;
+  margin-right: 4px;
+}
+
 .filter-btn {
   margin: 10px;
   padding: 10px;
@@ -42,4 +55,22 @@
 .res-container {
   display: flex;
   flex-wrap: wrap;
+}
+
+.shimmer-container {
+  display: flex;
+}
+
+.shimmer-card {
+  width: 200px;
+  height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  background: #f0f0f0f0;
+}
+
+.login {
+  cursor: pointer;
+  padding: 14px;
 }

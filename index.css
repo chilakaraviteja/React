@@ -74,3 +74,47 @@
   cursor: pointer;
   padding: 14px;
 }
+
+.menu {
+  width: 200px;
+  padding: 25px;
+}
+
+.menu-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 700px;
+}
+.menu-card > img {
+  width: 200px;
+  height: 150px;
+}
+.menu-card > ul > li {
+  list-style-type: none;
+}
+
+.menu-container {
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 150px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+}
+.menu-item > img {
+  width: 150px;
+  height: 150px;
+}

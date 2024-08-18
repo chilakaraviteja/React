@@ -4,6 +4,7 @@ import restList from "../utils/mockData";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import { REST } from "../utils/constant";
+import useOnlineStatus from "../utils/useOnlineStatus";
 
 const Body = () => {
   const [restData, setRestData] = useState([]);
@@ -29,6 +30,9 @@ const Body = () => {
     );
   };
 
+  const onlineStatus = useOnlineStatus();
+  if (onlineStatus === false)
+    return <h1>Please Check your internet connection...</h1>;
   return (
     <div className="body">
       <div className="filter">

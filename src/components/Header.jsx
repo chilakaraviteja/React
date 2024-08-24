@@ -6,12 +6,12 @@ import useOnlineStatus from "../utils/useOnlineStatus";
 const Header = () => {
   const onlineStatus = useOnlineStatus();
   return (
-    <div className="header">
+    <div className="flex justify-between border border-b-2">
       <div>
-        <img className="logo" src={LOGO_URL} />
+        <img className="w-32" src={LOGO_URL} />
       </div>
-      <div className="nav-items">
-        <ul>
+      <div className="flex items-center">
+        <ul className="flex px-10 space-x-12 ">
           <li>Online Status:{onlineStatus ? "✅" : "😡"}</li>
           <li>
             <Link to="/">Home</Link>

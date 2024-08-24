@@ -35,20 +35,20 @@ const Body = () => {
     return <h1>Please Check your internet connection...</h1>;
   return (
     <div className="body">
-      <div className="filter">
-        <div className="search-container">
+      <div className="flex items-center">
+        <div className="m-4 p-4 space-x-2">
           <input
             type="text"
             name="search"
             id="search"
-            className="search-input"
+            className="border border-solid border-black px-4 py-1"
             onChange={(e) => {
               setSearchText(e.target.value);
             }}
             value={searchText}
           />
           <button
-            className="search-btn"
+            className="px-4 py-1 border border-solid border-black"
             onClick={() => {
               const filteredSearch = restData.filter((res) =>
                 res.info?.name.toLowerCase().includes(searchText.toLowerCase())
@@ -59,20 +59,22 @@ const Body = () => {
             Search
           </button>
         </div>
-        <button
-          onClick={() => {
-            // Need to fix this
-            setRestData(restList.filter((res) => res?.info?.avgRating < 4));
-          }}
-          className="filter-btn"
-        >
-          Top Rated Button
-        </button>
+        <div>
+          <button
+            onClick={() => {
+              // Need to fix this
+              setRestData(restList.filter((res) => res?.info?.avgRating < 4));
+            }}
+            className="px-4 py-1 border border-solid border-black rounded-md"
+          >
+            Top Rated Button
+          </button>
+        </div>
       </div>
       {restData.length === 0 ? (
         <Shimmer />
       ) : (
-        <div className="res-container">
+        <div className="flex flex-wrap ">
           {/* we should not use index in map */}
           {filteredData.map((rest) => (
             <Link key={rest?.info?.id} to={"/restaurants/" + rest?.info?.id}>

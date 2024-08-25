@@ -34,7 +34,7 @@ const Body = () => {
 
   const onlineStatus = useOnlineStatus();
   if (onlineStatus === false)
-    return <h1>Please Check your internet connection...</h1>;
+    return <h1>Please Check your internet connection... </h1>;
   return (
     <div className="body">
       <div className="flex items-center">

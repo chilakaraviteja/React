@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withPromoteLabel } from "./RestaurantCard";
 import restList from "../utils/mockData";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -10,6 +10,8 @@ const Body = () => {
   const [restData, setRestData] = useState([]);
   const [filteredData, setFilteredData] = useState([]);
   const [searchText, setSearchText] = useState("");
+
+  const LabeledRestaurantCard = withPromoteLabel(RestaurantCard);
 
   useEffect(() => {
     fetchData();
@@ -78,7 +80,11 @@ const Body = () => {
           {/* we should not use index in map */}
           {filteredData.map((rest) => (
             <Link key={rest?.info?.id} to={"/restaurants/" + rest?.info?.id}>
-              <RestaurantCard restList={rest} />
+              {rest?.data?.promoted ? (
+                <LabeledRestaurantCard restList={rest} />
+              ) : (
+                <RestaurantCard restList={rest} />
+              )}
             </Link>
           ))}
         </div>

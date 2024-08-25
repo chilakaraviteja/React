@@ -21,7 +21,7 @@ const ItemList = ({ items }) => {
             </div>
             <div className="w-3/12 relative">
               <div className="absolute top-20 left-3">
-                <button className=" bg-green-600 text-white px-4 rounded-md">
+                <button className=" bg-green-500 text-white px-4 rounded-md">
                   ADD +
                 </button>
               </div>

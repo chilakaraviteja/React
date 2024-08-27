@@ -38,7 +38,7 @@ const Body = () => {
   return (
     <div className="body">
       <div className="flex items-center">
-        <div className="m-4 p-4 space-x-2">
+        <div className="m-4 p-4 space-x-2 ">
           <input
             type="text"
             name="search"

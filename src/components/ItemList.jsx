@@ -5,10 +5,10 @@ const ItemList = ({ items }) => {
   return (
     <div>
       {items.map((item) => (
-        <div key={item?.card?.info?.id} className="p-4 border-b-2">
-          <div className="flex justify-between">
+        <div key={item?.card?.info?.id} className=" p-4 border-b-2">
+          <div className=" flex justify-between">
             <div className="w-9/12 mr-4">
-              <p className="text-lg font-bold">{item?.card?.info?.name}</p>
+              <p className="text-lg font-bold ">{item?.card?.info?.name}</p>
               <p className="text-sm font-bold">
                 {item?.card?.info?.ratings?.aggregatedRating?.rating}⭐
               </p>

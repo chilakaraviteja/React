@@ -42,7 +42,7 @@ const RestaurantMenu = () => {
         {categories?.map((category, idx) => (
           <RestaurantCategory
             data={category?.card?.card}
-            id={category?.card?.card?.itemCards[idx]?.card?.info?.id}
+            key={category?.card?.card?.itemCards[idx]?.card?.info?.id}
             showItems={idx === showItems ? true : false}
             setShowItems={() => setShowItems(showItems !== idx ? idx : null)}
           />

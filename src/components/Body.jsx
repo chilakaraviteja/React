@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 import RestaurantCard, { withPromoteLabel } from "./RestaurantCard";
 import restList from "../utils/mockData";
 import Shimmer from "./Shimmer";
-import { Link } from "react-router-dom";
 import { REST } from "../utils/constant";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UseContext from "../utils/UseContext";
 
 const Body = () => {
   const [restData, setRestData] = useState([]);
@@ -12,6 +14,7 @@ const Body = () => {
   const [searchText, setSearchText] = useState("");
 
   const LabeledRestaurantCard = withPromoteLabel(RestaurantCard);
+  const { loggedIn, setUserName } = useContext(UseContext);
 
   useEffect(() => {
     fetchData();
@@ -71,6 +74,16 @@ const Body = () => {
           >
             Top Rated Button
           </button>
+        </div>
+        <div>
+          <label htmlFor="username">User Name</label>
+          <input
+            type="text"
+            id="username"
+            onChange={(e) => setUserName(e.target.value)}
+            value={loggedIn}
+            className="border border-solid p-2"
+          />
         </div>
       </div>
       {restData.length === 0 ? (

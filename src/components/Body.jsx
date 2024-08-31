@@ -14,7 +14,6 @@ const Body = () => {
   const [searchText, setSearchText] = useState("");
 
   const LabeledRestaurantCard = withPromoteLabel(RestaurantCard);
-  const { loggedIn, setUserName } = useContext(UseContext);
 
   useEffect(() => {
     fetchData();
@@ -74,16 +73,6 @@ const Body = () => {
           >
             Top Rated Button
           </button>
-        </div>
-        <div>
-          <label htmlFor="username">User Name</label>
-          <input
-            type="text"
-            id="username"
-            onChange={(e) => setUserName(e.target.value)}
-            value={loggedIn}
-            className="border border-solid p-2"
-          />
         </div>
       </div>
       {restData.length === 0 ? (

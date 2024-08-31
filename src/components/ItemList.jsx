@@ -1,10 +1,14 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+
 import { MENU_IMG } from "../utils/constant";
+import { addItems } from "../utils/cartSlice";
 
 const ItemList = ({ items }) => {
+  const dispatch = useDispatch();
   return (
     <div>
-      {items.map((item) => (
+      {items?.map((item) => (
         <div key={item?.card?.info?.id} className=" p-4 border-b-2">
           <div className=" flex justify-between">
             <div className="w-9/12 mr-4">
@@ -21,8 +25,11 @@ const ItemList = ({ items }) => {
             </div>
             <div className="w-3/12 relative">
               <div className="absolute top-20 left-3">
-                <button className=" bg-green-500 text-white px-4 rounded-md">
-                  ADD +
+                <button
+                  className=" bg-green-500 text-white px-4 rounded-md"
+                  onClick={() => dispatch(addItems(item))}
+                >
+                  ADD
                 </button>
               </div>
               <img

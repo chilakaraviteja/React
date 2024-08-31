@@ -1,10 +1,12 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 import RestaurantCard, { withPromoteLabel } from "./RestaurantCard";
 import restList from "../utils/mockData";
 import Shimmer from "./Shimmer";
-import { Link } from "react-router-dom";
 import { REST } from "../utils/constant";
 import useOnlineStatus from "../utils/useOnlineStatus";
+import UseContext from "../utils/UseContext";
 
 const Body = () => {
   const [restData, setRestData] = useState([]);

@@ -7,7 +7,7 @@ const RestaurantCard = ({ restList }) => {
         <img
           src={CDN_URL + restList?.info?.cloudinaryImageId}
           alt="restaurant item"
-          className="rounded-lg "
+          className="rounded-lg w-[50%]] h-[100%]"
         />
       </div>
       <div>

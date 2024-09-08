@@ -6,7 +6,6 @@ import restList from "../utils/mockData";
 import Shimmer from "./Shimmer";
 import { REST } from "../utils/constant";
 import useOnlineStatus from "../utils/useOnlineStatus";
-import UseContext from "../utils/UseContext";
 
 const Body = () => {
   const [restData, setRestData] = useState([]);

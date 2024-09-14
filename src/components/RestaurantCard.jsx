@@ -2,7 +2,10 @@ import { CDN_URL } from "../utils/constant";
 
 const RestaurantCard = ({ restList }) => {
   return (
-    <div className="m-4 p-6 w-[250px] h-fit sm:h-[480px] border border-solid border-black shadow-lg">
+    <div
+      data-testid="resCard"
+      className="m-4 p-6 w-[250px] h-fit sm:h-[480px] border border-solid border-black shadow-lg"
+    >
       <div>
         <img
           src={CDN_URL + restList?.info?.cloudinaryImageId}

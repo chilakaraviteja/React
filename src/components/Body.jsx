@@ -44,6 +44,7 @@ const Body = () => {
             type="text"
             name="search"
             id="search"
+            data-testid="searchInput"
             className="border border-solid border-black px-4 py-1"
             onChange={(e) => {
               setSearchText(e.target.value);
@@ -65,9 +66,11 @@ const Body = () => {
         <div>
           <button
             onClick={() => {
-              // Need to fix this
-              setRestData(restList.filter((res) => res?.info?.avgRating < 4));
+              setFilteredData(
+                restData.filter((res) => res?.info?.avgRating > 4.3)
+              );
             }}
+            data-testid="topRated"
             className="px-4 py-1 border border-solid border-black rounded-md"
           >
             Top Rated Button

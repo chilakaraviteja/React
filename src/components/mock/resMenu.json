@@ -1,0 +1,2414 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Silver Biryani",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "766734",
+              "name": "Silver Biryani",
+              "city": "Vijayawada",
+              "slugs": {
+                "restaurant": "silver-biryani-benz-circle-and-auto-nagar-benz-circle-and-auto-nagar-2",
+                "city": "vijayawada"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "b36b6f4cccdf3591e2b9d2512b4f9d4c",
+              "locality": "Near Saibaba Temple",
+              "areaName": "Benz Circle and Auto Nagar",
+              "costForTwo": "35000",
+              "costForTwoMessage": "₹350 for two",
+              "cuisines": ["Biryani"],
+              "avgRating": 3.9,
+              "feeDetails": {
+                "restaurantId": "766734",
+                "fees": [
+                  {
+                    "name": "TYPE_DISTANCE",
+                    "fee": 2900
+                  },
+                  {
+                    "name": "TYPE_TIME"
+                  },
+                  {
+                    "name": "TYPE_STRESS",
+                    "fee": 1500
+                  }
+                ],
+                "totalFee": 4400,
+                "title": "Delivery Charge",
+                "amount": "4400",
+                "icon": "v1648208533/surgecreatives/trend",
+                "message": "<b>1.9 kms</b> | High Demand, additional delivery fee will apply"
+              },
+              "parentId": "290456",
+              "avgRatingString": "3.9",
+              "totalRatingsString": "211 ratings",
+              "sla": {
+                "restaurantId": "766734",
+                "deliveryTime": 52,
+                "minDeliveryTime": 50,
+                "maxDeliveryTime": 55,
+                "lastMileTravel": 1.9,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_IT_IS_LONG_DISTANCE",
+                "zoneId": 539,
+                "slaString": "50-55 MINS",
+                "lastMileTravelString": "1.8 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2024-09-15 04:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "Get every item @ 129",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get every item @ 129",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "50% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get every item @ 129",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "50% off up to ₹100 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "silver-biryani-benz-circle-and-auto-nagar-benz-circle-and-auto-nagar-2",
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Door No: 59A-5-15,ROAD NO -03, NEW P&T  COLONY -2, NEAR SAIBABA  TEMPLE ,VIJAYWADA , N T R, Andhra  Pradesh-520008"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Biryani"
+                }
+              ],
+              "totalRatings": 211,
+              "aggregatedDiscountInfoV2": {
+                "header": "Get every item @ 129",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get every item @ 129",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "50% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get every item @ 129",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "50% off up to ₹100 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "priority": 1,
+                  "discountInfo": {
+                    "discountType": "FinalPrice",
+                    "value": 129
+                  },
+                  "unlockedMessage": "Deal of the Day unlocked!",
+                  "minItemCount": 1,
+                  "maxItemCount": 1,
+                  "type": "SILD",
+                  "nudgeTagInfo": {
+                    "title": "Deal of the Day",
+                    "fontName": "FONT_NAME_CONDENSED_BOLD"
+                  },
+                  "logoCtx": {}
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/766734"
+              },
+              "expectationNotifiers": [
+                {
+                  "text": "<b>1.9 kms</b> | High Demand, additional delivery fee will apply",
+                  "icon": {
+                    "imageId": "v1648208533/surgecreatives/trend"
+                  },
+                  "popup": {
+                    "cta": {}
+                  },
+                  "type": "GENERIC_PRICING",
+                  "enrichedText": "<b>1.9 kms</b> | High Demand, additional delivery fee will apply",
+                  "halfCardPopup": {
+                    "halfCardPopupHeader": {}
+                  },
+                  "trailingIcon": {}
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_4",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {}
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "16.503828,80.6622493",
+              "backgroundImageOverlayInfo": {},
+              "featuredSectionInfo": {}
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 4,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              },
+              "scrollBar": {}
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "Extra ₹25 off",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "rng/md/ads/production/d07196b25b85d1fd9951e10c255ab737",
+                      "offerIds": ["bd0c2f13-2a0c-47a5-a88a-df1258c1149a"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "description": "APPLICABLE OVER & ABOVE COUPONS",
+                      "offerType": "offers",
+                      "restId": "766734",
+                      "offerLogo": "rng/md/ads/production/d07196b25b85d1fd9951e10c255ab737",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "ITEMS AT ₹129",
+                      "offerTag": "DEAL OF DAY",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["b6392b80-30bc-4141-ae90-33a197710c8f"],
+                      "expiryTime": "1970-01-01T04:55:39Z",
+                      "description": "ON SELECT ITEMS |",
+                      "offerType": "offers",
+                      "restId": "766734",
+                      "offerLogo": "offers/deal-of-day",
+                      "descriptionTextColor": "#7302060C",
+                      "showExpiryTimer": true
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "50% OFF UPTO ₹100",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["9fc895b1-ea25-444f-a0c1-832695f5f866"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE TRYNEW",
+                      "description": "ABOVE ₹149",
+                      "offerType": "offers",
+                      "restId": "766734",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹100 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2024/8/31/2c03d1fc-7bc6-4085-b797-f11af939da63_SBI.png",
+                      "offerIds": ["6b752671-40e9-468b-afd9-5584ff432748"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE SBIDELIGHTS",
+                      "description": "ABOVE ₹749",
+                      "offerType": "offers",
+                      "restId": "766734",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2024/8/31/2c03d1fc-7bc6-4085-b797-f11af939da63_SBI.png",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142611964",
+                              "name": "Chicken Dum Biryani (single Serve)                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "69d30bdf3de8b42a1ba198c21478b361",
+                              "inStock": 1,
+                              "price": 26900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142611969",
+                              "name": "Chicken Dum Biryani Family Pack                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "26d17f0696e470d82194962f5a1e5a0d",
+                              "inStock": 1,
+                              "price": 79900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142611962",
+                              "name": "Chicken Fry Biryani (single Serve)                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "fed32482b442526f0dbd928d4a8f6ac5",
+                              "inStock": 1,
+                              "price": 26900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142610953",
+                              "name": "Chicken Dum Biryani (full)                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "69d30bdf3de8b42a1ba198c21478b361",
+                              "inStock": 1,
+                              "price": 36900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142610955",
+                              "name": "Biryani Rice                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "81bc9b0581075abfdc7423ffc536d4aa",
+                              "inStock": 1,
+                              "price": 19900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142611967",
+                              "name": "Chicken Fry Biryani (full)_                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "description": "A flavorful and aromatic blend of tender chicken and fragrant rice, cooked to perfection in traditional biryani style.",
+                              "imageId": "fed32482b442526f0dbd928d4a8f6ac5",
+                              "inStock": 1,
+                              "price": 36900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142610960",
+                              "name": "Ulavacharu Chicken Biryani (full)                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "364756bc93d0fd27d19227d73421633e",
+                              "inStock": 1,
+                              "price": 37900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142611977",
+                              "name": "Chicken Fry Biryani Family Pack                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "26d17f0696e470d82194962f5a1e5a0d",
+                              "inStock": 1,
+                              "price": 79900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "126927704",
+                              "name": "Katta",
+                              "category": "Biryani Rice",
+                              "imageId": "81bc9b0581075abfdc7423ffc536d4aa",
+                              "inStock": 1,
+                              "price": 1500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "18 ratings",
+                                  "ratingCountV2": "18"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Biryanis ( Single Serves )",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784072",
+                              "name": "Chicken Fry Biryani (single Serve)",
+                              "category": "Biryanis ( Single Serves )",
+                              "imageId": "fed32482b442526f0dbd928d4a8f6ac5",
+                              "inStock": 1,
+                              "price": 26900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "127131033",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 8
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "48 ratings",
+                                  "ratingCountV2": "48"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784071",
+                              "name": "Chicken Dum Biryani (single Serve)",
+                              "category": "Biryanis ( Single Serves )",
+                              "imageId": "69d30bdf3de8b42a1ba198c21478b361",
+                              "inStock": 1,
+                              "price": 26900,
+                              "finalPrice": 12900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "127131032",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 8
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [{}],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.0",
+                                  "ratingCount": "74 ratings",
+                                  "ratingCountV2": "74"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Late Night Bestsellers",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142611964",
+                              "name": "Chicken Dum Biryani (single Serve)                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "69d30bdf3de8b42a1ba198c21478b361",
+                              "inStock": 1,
+                              "price": 26900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142611969",
+                              "name": "Chicken Dum Biryani Family Pack                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "26d17f0696e470d82194962f5a1e5a0d",
+                              "inStock": 1,
+                              "price": 79900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142611962",
+                              "name": "Chicken Fry Biryani (single Serve)                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "fed32482b442526f0dbd928d4a8f6ac5",
+                              "inStock": 1,
+                              "price": 26900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142610953",
+                              "name": "Chicken Dum Biryani (full)                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "69d30bdf3de8b42a1ba198c21478b361",
+                              "inStock": 1,
+                              "price": 36900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142610967",
+                              "name": "Mixed Chicken Biryani (couple Pack)                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "inStock": 1,
+                              "price": 49900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142610955",
+                              "name": "Biryani Rice                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "81bc9b0581075abfdc7423ffc536d4aa",
+                              "inStock": 1,
+                              "price": 19900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142611967",
+                              "name": "Chicken Fry Biryani (full)_                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "description": "A flavorful and aromatic blend of tender chicken and fragrant rice, cooked to perfection in traditional biryani style.",
+                              "imageId": "fed32482b442526f0dbd928d4a8f6ac5",
+                              "inStock": 1,
+                              "price": 36900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142610960",
+                              "name": "Ulavacharu Chicken Biryani (full)                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "364756bc93d0fd27d19227d73421633e",
+                              "inStock": 1,
+                              "price": 37900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142611977",
+                              "name": "Chicken Fry Biryani Family Pack                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "imageId": "26d17f0696e470d82194962f5a1e5a0d",
+                              "inStock": 1,
+                              "price": 79900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "142610964",
+                              "name": "Ulavacharu Chicken Biryani (couple Pack)                                                   ",
+                              "category": "Late Night Bestsellers",
+                              "inStock": 1,
+                              "price": 48900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Biryani ( Regular )",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784232",
+                              "name": "Chicken Fry Biryani (full)_",
+                              "category": "Biryani ( Regular )",
+                              "description": "A flavorful and aromatic blend of tender chicken and fragrant rice, cooked to perfection in traditional biryani style.",
+                              "imageId": "fed32482b442526f0dbd928d4a8f6ac5",
+                              "inStock": 1,
+                              "price": 36900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "127131037",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 8
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.3",
+                                  "ratingCount": "17 ratings",
+                                  "ratingCountV2": "17"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784233",
+                              "name": "Chicken Dum Biryani (full)",
+                              "category": "Biryani ( Regular )",
+                              "imageId": "69d30bdf3de8b42a1ba198c21478b361",
+                              "inStock": 1,
+                              "price": 36900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "127131038",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 8
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "13 ratings",
+                                  "ratingCountV2": "13"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784228",
+                              "name": "Mixed Chicken Biryani (full)",
+                              "category": "Biryani ( Regular )",
+                              "inStock": 1,
+                              "price": 39900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "127131034",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 8
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "1.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784229",
+                              "name": "Ulavacharu Chicken Biryani (full)",
+                              "category": "Biryani ( Regular )",
+                              "imageId": "364756bc93d0fd27d19227d73421633e",
+                              "inStock": 1,
+                              "price": 37900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "127131035",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 8
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.8",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Family Pack Biryanis",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784848",
+                              "name": "Chicken Fry Biryani Family Pack",
+                              "category": "Family Pack Biryanis",
+                              "imageId": "26d17f0696e470d82194962f5a1e5a0d",
+                              "inStock": 1,
+                              "price": 79900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "127131041",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 8
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784847",
+                              "name": "Chicken Dum Biryani Family Pack",
+                              "category": "Family Pack Biryanis",
+                              "imageId": "26d17f0696e470d82194962f5a1e5a0d",
+                              "inStock": 1,
+                              "price": 79900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "127131039",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": 8
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "2.0",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Biryani Rice",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "126927703",
+                              "name": "Biryani Rice",
+                              "category": "Biryani Rice",
+                              "imageId": "81bc9b0581075abfdc7423ffc536d4aa",
+                              "inStock": 1,
+                              "price": 19900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "127130678",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.3",
+                                  "ratingCount": "14 ratings",
+                                  "ratingCountV2": "14"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "126927704",
+                              "name": "Katta",
+                              "category": "Biryani Rice",
+                              "imageId": "81bc9b0581075abfdc7423ffc536d4aa",
+                              "inStock": 1,
+                              "price": 1500,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.5",
+                                  "ratingCount": "18 ratings",
+                                  "ratingCountV2": "18"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "126927705",
+                              "name": "Ritha",
+                              "category": "Biryani Rice",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 1600,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Biryani (couple Pack)",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784484",
+                              "name": "Chicken Fry Biryani (couple Pack)",
+                              "category": "Biryani (couple Pack)",
+                              "inStock": 1,
+                              "price": 47900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "135367224",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                }
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784483",
+                              "name": "Chicken Dum Biryani (couple Pack)",
+                              "category": "Biryani (couple Pack)",
+                              "inStock": 1,
+                              "price": 47900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "135367223",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784487",
+                              "name": "Mixed Chicken Biryani (couple Pack)",
+                              "category": "Biryani (couple Pack)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/13/ef5705bf-d313-42e5-8d15-f5df2098cf32_25b7ebd8-c37f-4517-a8c1-9c86ea12b4d7.JPG",
+                              "inStock": 1,
+                              "price": 49900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "135367225",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124784488",
+                              "name": "Ulavacharu Chicken Biryani (couple Pack)",
+                              "category": "Biryani (couple Pack)",
+                              "inStock": 1,
+                              "price": 48900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "addons": [
+                                {
+                                  "groupId": "135367226",
+                                  "groupName": "Add-ons",
+                                  "choices": [
+                                    {
+                                      "id": "108897236",
+                                      "name": "Kinley Soda 750 Ml",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897235",
+                                      "name": "Kinley Water Bottle 1 Liter",
+                                      "price": 3500,
+                                      "inStock": 1,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108895544",
+                                      "name": "Thums Up 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112744302",
+                                      "name": "Coca Cola Pet",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692273",
+                                      "name": "Diet Coke",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "112692282",
+                                      "name": "Thums Up Tin",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897233",
+                                      "name": "Sprite 250ml",
+                                      "price": 4000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    },
+                                    {
+                                      "id": "108897232",
+                                      "name": "Thums Up 600 Ml",
+                                      "price": 6000,
+                                      "isVeg": 1,
+                                      "isEnabled": 1
+                                    }
+                                  ],
+                                  "maxAddons": -1
+                                }
+                              ],
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 10123020000345"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Silver Biryani",
+                      "area": "Benz Circle and Auto Nagar",
+                      "completeAddress": "Door No: 59A-5-15,ROAD NO -03, NEW P&T  COLONY -2, NEAR SAIBABA  TEMPLE ,VIJAYWADA , N T R, Andhra  Pradesh-520008"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "1884bedc-6e13-45e7-9b8a-715990913dbf",
+  "sid": "g40daf9d-c4c5-40ce-96fc-37beedabcc7e",
+  "deviceId": "c673a88c-766b-4003-a63b-8fd1bf234520",
+  "csrfToken": "ZmNEodYIIlgz-AGVtu340thbU7wsprNpu05rBY60"
+}

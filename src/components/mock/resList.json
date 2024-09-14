@@ -1,0 +1,1424 @@
+{
+  "data": {
+    "tid": "d7e44edc-8287-412d-bdec-18dae9594064",
+    "sid": "g004545b-d494-4c9c-9c1f-a427a02ac5e8",
+    "deviceId": "0457a926-879d-28b9-e80b-ae631c8a26ae",
+    "requestId": "eb1e0169-3a8b-4f93-bcdc-d472e3a0a4ec",
+    "apiTime": "2024-09-08T18:35:01.659Z",
+    "success": {
+      "statusMessage": "done successfully",
+      "pageOffset": {
+        "nextOffset": "CJY7ELQ4KIDwtLCniIeWXDDUEA==",
+        "widgetOffset": {
+          "NewListingView_category_bar_chicletranking_TwoRows": "",
+          "NewListingView_category_bar_chicletranking_TwoRows_Rendition": "",
+          "Restaurant_Group_WebView_SEO_PB_Theme": "",
+          "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo": "11",
+          "inlineFacetFilter": "",
+          "restaurantCountWidget": ""
+        }
+      },
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+              "sortConfigs": [
+                {
+                  "key": "relevance",
+                  "title": "Relevance(Default)",
+                  "selected": true,
+                  "defaultSelection": true
+                },
+                {
+                  "key": "deliveryTimeAsc",
+                  "title": "DeliveryTime"
+                },
+                {
+                  "key": "modelBasedRatingDesc",
+                  "title": "Rating"
+                },
+                {
+                  "key": "costForTwoAsc",
+                  "title": "Cost:LowtoHigh"
+                },
+                {
+                  "key": "costForTwoDesc",
+                  "title": "Cost:HightoLow"
+                }
+              ],
+              "restaurantCount": 1507,
+              "facetList": [
+                {
+                  "label": "Delivery Time",
+                  "id": "deliveryTime",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Fast Delivery",
+                      "id": "deliveryTimefacetquery1",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "subLabel": "Filterby"
+                },
+                {
+                  "label": "Cuisines",
+                  "id": "catalog_cuisines",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Afghani",
+                      "id": "query_afghani",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "American",
+                      "id": "query_american",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Andhra",
+                      "id": "query_andhra",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Arabian",
+                      "id": "query_arabian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Asian",
+                      "id": "query_asian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Awadhi",
+                      "id": "query_awadhi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Bakery",
+                      "id": "query_bakery",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Barbecue",
+                      "id": "query_barbecue",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Bengali",
+                      "id": "query_bengali",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Beverages",
+                      "id": "query_beverages",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Biryani",
+                      "id": "query_biryani",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Burger",
+                      "id": "query_burger",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Burgers",
+                      "id": "query_burgers",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Cafe",
+                      "id": "query_cafe",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Cakes",
+                      "id": "query_cakes",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Cakes & Pastries",
+                      "id": "query_cakes_&_pastries",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Cakes and Pastries",
+                      "id": "query_cakes_and_pastries",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Chaat",
+                      "id": "query_chaat",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Chettinad",
+                      "id": "query_chettinad",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Chinese",
+                      "id": "query_chinese",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Combo",
+                      "id": "query_combo",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Continental",
+                      "id": "query_continental",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Default",
+                      "id": "query_default",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Desserts",
+                      "id": "query_desserts",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "European",
+                      "id": "query_european",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Fast Food",
+                      "id": "query_fast_food",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Grill",
+                      "id": "query_grill",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Gujarati",
+                      "id": "query_gujarati",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Haleem",
+                      "id": "query_haleem",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Healthy Food",
+                      "id": "query_healthy_food",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Home Food",
+                      "id": "query_home_food",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Hyderabadi",
+                      "id": "query_hyderabadi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Ice Cream",
+                      "id": "query_ice_cream",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Ice Cream Cakes",
+                      "id": "query_ice_cream_cakes",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Indian",
+                      "id": "query_indian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Italian",
+                      "id": "query_italian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Italian-American",
+                      "id": "query_italian-american",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Jain",
+                      "id": "query_jain",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Juices",
+                      "id": "query_juices",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Kebabs",
+                      "id": "query_kebabs",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Korean",
+                      "id": "query_korean",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Lebanese",
+                      "id": "query_lebanese",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Lucknowi",
+                      "id": "query_lucknowi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Mangalorean",
+                      "id": "query_mangalorean",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Mexican",
+                      "id": "query_mexican",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Middle Eastern",
+                      "id": "query_middle_eastern",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Momos",
+                      "id": "query_momos",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Mughlai",
+                      "id": "query_mughlai",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "North Indian",
+                      "id": "query_north_indian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Oriya",
+                      "id": "query_oriya",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Pastas",
+                      "id": "query_pastas",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Pizzas",
+                      "id": "query_pizzas",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Punjabi",
+                      "id": "query_punjabi",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Rajasthani",
+                      "id": "query_rajasthani",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Rayalaseema",
+                      "id": "query_rayalaseema",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Rolls",
+                      "id": "query_rolls",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Rolls & Wraps",
+                      "id": "query_rolls_&_wraps",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "SVANidhi Street Food Vendor",
+                      "id": "query_svanidhi_street_food_vendor",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Salads",
+                      "id": "query_salads",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Seafood",
+                      "id": "query_seafood",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Shawarma",
+                      "id": "query_shawarma",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Snacks",
+                      "id": "query_snacks",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "South American",
+                      "id": "query_south_american",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "South Indian",
+                      "id": "query_south_indian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "South indian",
+                      "id": "query_south_indian",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Street Food",
+                      "id": "query_street_food",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Sweets",
+                      "id": "query_sweets",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Tandoor",
+                      "id": "query_tandoor",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Telangana",
+                      "id": "query_telangana",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Thai",
+                      "id": "query_thai",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Thalis",
+                      "id": "query_thalis",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Tibetan",
+                      "id": "query_tibetan",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Turkish",
+                      "id": "query_turkish",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Waffle",
+                      "id": "query_waffle",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "briyani",
+                      "id": "query_briyani",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "pizza",
+                      "id": "query_pizza",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "rolls",
+                      "id": "query_rolls",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "sandwich",
+                      "id": "query_sandwich",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "shawarma",
+                      "id": "query_shawarma",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "canSearch": true,
+                  "subLabel": "Filterbycuisine",
+                  "openFilter": true
+                },
+                {
+                  "label": "Explore",
+                  "id": "explore",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "New on Swiggy",
+                      "id": "newfacetquery1",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD"
+                },
+                {
+                  "label": "Ratings",
+                  "id": "rating",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Ratings 4.5+",
+                      "id": "ratingfacetquery3",
+                      "analytics": {}
+                    },
+                    {
+                      "label": "Ratings 4.0+",
+                      "id": "ratingfacetquery4",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Ratings 3.5+",
+                      "id": "ratingfacetquery5",
+                      "analytics": {}
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "subLabel": "Filterby"
+                },
+                {
+                  "label": "Veg/Non-Veg",
+                  "id": "isVeg",
+                  "selection": "SELECT_TYPE_SINGLESELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Pure Veg",
+                      "id": "isVegfacetquery2",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Non Veg",
+                      "id": "isVegfacetquery3",
+                      "analytics": {}
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_FLATTENED",
+                  "subLabel": "Filterby"
+                },
+                {
+                  "label": "Offers",
+                  "id": "restaurantOfferMultiTd",
+                  "selection": "SELECT_TYPE_SINGLESELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Offers",
+                      "id": "restaurantOfferMultiTdfacetquery3",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_FLATTENED",
+                  "subLabel": "Restaurantswith"
+                },
+                {
+                  "label": "Cost for two",
+                  "id": "costForTwo",
+                  "selection": "SELECT_TYPE_MULTISELECT",
+                  "facetInfo": [
+                    {
+                      "label": "Rs. 300-Rs. 600",
+                      "id": "costForTwofacetquery3",
+                      "analytics": {},
+                      "openFilter": true
+                    },
+                    {
+                      "label": "Greater than Rs. 600",
+                      "id": "costForTwofacetquery4",
+                      "analytics": {}
+                    },
+                    {
+                      "label": "Less than Rs. 300",
+                      "id": "costForTwofacetquery5",
+                      "analytics": {},
+                      "openFilter": true
+                    }
+                  ],
+                  "viewType": "VIEW_TYPE_HALF_CARD",
+                  "subLabel": "Filterby"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+              "layout": {
+                "columns": 4
+              },
+              "id": "restaurant_grid_listing",
+              "gridElements": {
+                "infoWithStyle": {
+                  "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                  "restaurants": [
+                    {
+                      "info": {
+                        "id": "731303",
+                        "name": "Hoskote 4 Am Biryani",
+                        "cloudinaryImageId": "f594f4f63d3e00e93203f02d40e38d24",
+                        "locality": "arundalpet",
+                        "areaName": "Governorpet",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": ["Biryani", "Chinese", "Kebabs"],
+                        "avgRating": 4.3,
+                        "parentId": "476532",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "2.4K+",
+                        "sla": {
+                          "deliveryTime": 29,
+                          "lastMileTravel": 2.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "2.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-09-09 23:59:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹129"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {},
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/city/vijayawada/hoskote-4-am-biryani-arundalpet-governorpet-rest731303",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "724089",
+                        "name": "Giani",
+                        "cloudinaryImageId": "f640a78d533781ba118cd812aeb8aa7c",
+                        "locality": "MG Road",
+                        "areaName": "Benz Circle and Auto Nagar",
+                        "costForTwo": "₹500 for two",
+                        "cuisines": ["Ice Cream"],
+                        "avgRating": 4.2,
+                        "veg": true,
+                        "parentId": "415",
+                        "avgRatingString": "4.2",
+                        "totalRatingsString": "114",
+                        "sla": {
+                          "deliveryTime": 28,
+                          "lastMileTravel": 5.9,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "5.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-09-09 01:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "₹100 OFF",
+                          "subHeader": "ABOVE ₹999",
+                          "discountTag": "FLAT DEAL"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {},
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/city/vijayawada/giani-mg-road-benz-circle-and-auto-nagar-rest724089",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "258783",
+                        "name": "The Legendairy Milkshakes",
+                        "cloudinaryImageId": "d576868d5a529d19dca25a968aba8a16",
+                        "locality": "Kundeti Vari Street",
+                        "areaName": "Durgapuram",
+                        "costForTwo": "₹150 for two",
+                        "cuisines": ["Beverages", "Ice Cream"],
+                        "avgRating": 4.3,
+                        "veg": true,
+                        "parentId": "13330",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "3.4K+",
+                        "sla": {
+                          "deliveryTime": 25,
+                          "lastMileTravel": 2.5,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "2.5 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-09-09 01:30:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹89"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {},
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/city/vijayawada/the-legendairy-milkshakes-kundeti-vari-street-durgapuram-rest258783",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "914927",
+                        "name": "noodle bowl",
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/4/3973115d-accc-4ef5-866a-5757230a2d0b_914927.jpg",
+                        "locality": "near anjaneya swamy temple",
+                        "areaName": "Vijayawada ",
+                        "costForTwo": "₹299 for two",
+                        "cuisines": ["Snacks"],
+                        "avgRating": 3.4,
+                        "parentId": "4178",
+                        "avgRatingString": "3.4",
+                        "totalRatingsString": "3",
+                        "sla": {
+                          "deliveryTime": 32,
+                          "lastMileTravel": 3,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "30-35 mins",
+                          "lastMileTravelString": "3.0 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-09-09 03:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "35% OFF",
+                          "subHeader": "UPTO ₹175",
+                          "discountTag": "SAVE BIG"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "isNewlyOnboarded": true,
+                        "restaurantOfferPresentationInfo": {},
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/city/vijayawada/noodle-bowl-near-anjaneya-swamy-temple-vijayawada-rest914927",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "854290",
+                        "name": "Seoul Fried Chicken",
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/23/5a2b38c8-ad3c-413f-af90-e33c36010050_854290.jpg",
+                        "locality": "Revenue Ward 8",
+                        "areaName": "Vijayawada",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": [
+                          "American",
+                          "Fast Food",
+                          "Snacks",
+                          "Korean",
+                          "Burgers",
+                          "Beverages"
+                        ],
+                        "parentId": "468084",
+                        "avgRatingString": "--",
+                        "sla": {
+                          "deliveryTime": 25,
+                          "lastMileTravel": 1.7,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "1.7 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-09-09 02:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "EVERY ITEM",
+                          "subHeader": "@ ₹179"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {},
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/city/vijayawada/seoul-fried-chicken-revenue-ward-8-vijayawada-rest854290",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "786737",
+                        "name": "Dawat Family Restaurant",
+                        "cloudinaryImageId": "4198329dc297b9ec70b9c7a64b4993bb",
+                        "locality": "Sevasahayam Road",
+                        "areaName": "Governorpet",
+                        "costForTwo": "₹299 for two",
+                        "cuisines": [
+                          "Chinese",
+                          "Biryani",
+                          "Tandoor",
+                          "Arabian",
+                          "Beverages"
+                        ],
+                        "avgRating": 4,
+                        "parentId": "68895",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "1.3K+",
+                        "sla": {
+                          "deliveryTime": 33,
+                          "lastMileTravel": 0.6,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "30-35 mins",
+                          "lastMileTravelString": "0.6 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-09-09 03:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹99"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {},
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/city/vijayawada/dawat-family-restaurant-sevasahayam-road-governorpet-rest786737",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "875420",
+                        "name": "The Pizza Project by Oven Story",
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/24/bca980c8-7d67-4c61-8464-243a46f9bb36_875420.jpg",
+                        "locality": "Ramachandra Rao Raod",
+                        "areaName": "Suryarao Pet",
+                        "costForTwo": "₹400 for two",
+                        "cuisines": [
+                          "Pizzas",
+                          "Italian",
+                          "Desserts",
+                          "Beverages"
+                        ],
+                        "avgRating": 3.6,
+                        "parentId": "497031",
+                        "avgRatingString": "3.6",
+                        "totalRatingsString": "83",
+                        "sla": {
+                          "deliveryTime": 50,
+                          "lastMileTravel": 2.1,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "45-50 mins",
+                          "lastMileTravelString": "2.1 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-09-09 03:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "ITEMS",
+                          "subHeader": "AT ₹99"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "isNewlyOnboarded": true,
+                        "restaurantOfferPresentationInfo": {},
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/city/vijayawada/the-pizza-project-by-oven-story-ramachandra-rao-raod-suryarao-pet-rest875420",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "908890",
+                        "name": "Bigguys Wings & More",
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/9/3/48e2c69e-baf7-4d97-adf0-56a04afeacd1_908890.jpg",
+                        "locality": "GURUNANAK COLONY",
+                        "areaName": "Benz Circle and Auto Nagar",
+                        "costForTwo": "₹300 for two",
+                        "cuisines": ["Burgers", "Fast Food"],
+                        "avgRating": 4,
+                        "parentId": "503744",
+                        "avgRatingString": "4.0",
+                        "totalRatingsString": "76",
+                        "sla": {
+                          "deliveryTime": 27,
+                          "lastMileTravel": 2.2,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "2.2 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-09-09 01:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "aggregatedDiscountInfoV2": {},
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "isNewlyOnboarded": true,
+                        "restaurantOfferPresentationInfo": {},
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/city/vijayawada/bigguys-wings-and-more-gurunanak-colony-benz-circle-and-auto-nagar-rest908890",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "854173",
+                        "name": "Warmoven Cake & Desserts",
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/23/aac793a4-a0eb-47c1-83ba-dd9cf719a2bb_854173.jpg",
+                        "locality": "Shop No 10",
+                        "areaName": "Vijayawada",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": [
+                          "Bakery",
+                          "Desserts",
+                          "Ice Cream",
+                          "Beverages",
+                          "Cakes"
+                        ],
+                        "avgRating": 4.4,
+                        "parentId": "9696",
+                        "avgRatingString": "4.4",
+                        "totalRatingsString": "4",
+                        "sla": {
+                          "deliveryTime": 29,
+                          "lastMileTravel": 1.9,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "25-30 mins",
+                          "lastMileTravelString": "1.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-09-09 02:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "60% OFF",
+                          "subHeader": "UPTO ₹120"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {},
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/city/vijayawada/warmoven-cake-and-desserts-shop-no-10-vijayawada-rest854173",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    },
+                    {
+                      "info": {
+                        "id": "854176",
+                        "name": "Kaati Zone Rolls & Wraps",
+                        "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/8/23/a1bcd45e-f484-4bcd-83c2-4ac8e57a4f4b_854176.jpg",
+                        "locality": "Revenue Ward No-8",
+                        "areaName": "Vijayawada",
+                        "costForTwo": "₹200 for two",
+                        "cuisines": [
+                          "Fast Food",
+                          "Bengali",
+                          "Beverages",
+                          "Desserts",
+                          "Rolls"
+                        ],
+                        "avgRating": 4.3,
+                        "parentId": "248306",
+                        "avgRatingString": "4.3",
+                        "totalRatingsString": "4",
+                        "sla": {
+                          "deliveryTime": 25,
+                          "lastMileTravel": 1.9,
+                          "serviceability": "SERVICEABLE",
+                          "slaString": "20-25 mins",
+                          "lastMileTravelString": "1.9 km",
+                          "iconType": "ICON_TYPE_EMPTY"
+                        },
+                        "availability": {
+                          "nextCloseTime": "2024-09-09 02:00:00",
+                          "opened": true
+                        },
+                        "badges": {},
+                        "isOpen": true,
+                        "type": "F",
+                        "badgesV2": {
+                          "entityBadges": {
+                            "imageBased": {},
+                            "textBased": {},
+                            "textExtendedBadges": {}
+                          }
+                        },
+                        "aggregatedDiscountInfoV3": {
+                          "header": "60% OFF",
+                          "subHeader": "UPTO ₹120"
+                        },
+                        "orderabilityCommunication": {
+                          "title": {},
+                          "subTitle": {},
+                          "message": {},
+                          "customIcon": {}
+                        },
+                        "differentiatedUi": {
+                          "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                          "differentiatedUiMediaDetails": {
+                            "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                            "lottie": {},
+                            "video": {}
+                          }
+                        },
+                        "reviewsSummary": {},
+                        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                        "restaurantOfferPresentationInfo": {},
+                        "externalRatings": {
+                          "aggregatedRating": {
+                            "rating": "--"
+                          }
+                        },
+                        "ratingsDisplayPreference": "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY"
+                      },
+                      "analytics": {},
+                      "cta": {
+                        "link": "https://www.swiggy.com/city/vijayawada/kaati-zone-rolls-and-wraps-revenue-ward-no-8-vijayawada-rest854176",
+                        "text": "RESTAURANT_MENU",
+                        "type": "WEBLINK"
+                      },
+                      "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                    }
+                  ],
+                  "theme": "SeoRestaurantListingGridWidget"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "firstOffsetRequest": true,
+      "nextFetch": 3
+    },
+    "jid": "fzue26b5-eb63-4987-b95c-98532d2ffd79"
+  },
+  "statusCode": 0
+}
